@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Force - About</title>
+    <style>
+        .logo {
+        width: 80px;
+        height: auto;
+         }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background-color: #fff;
+        }
+        header, footer, nav, aside, main {
+            padding: 20px;
+            border: 1px solid black;
+        }
+        header {
+            text-align: center;
+            background-color: #fff;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            background-color: #000;
+            color: #fff;
+        }
+        nav a {
+            margin-right: 10px;
+            text-decoration: none;
+            color: #fff;
+        }
+        nav .search {
+            display: flex;
+        }
+        nav .search input {
+            margin-right: 10px;
+        }
+        .content {
+            display: flex;
+            flex: 1;
+        }
+        aside {
+            width: 40%;
+            background-color: #A1A1A1;
+        }
+        main {
+            width: 60%;
+            background-color: #f0f0f0;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        footer {
+            background-color: #000;
+            text-align: center;
+            color: #fff;
+        }
+        .purchases-table {
+            width: 100%;
+        }
+        .purchases-table td {
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Computer Force Logo" class="logo">
+    </header>
+    <nav>
+        <div class="menu">
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="register.html">Register</a>
+            <a href="about.html">About</a>
+        </div>
+        <div class="search">
+            <input type="text" placeholder="Search...">
+            <button>Search</button>
+        </div>
+    </nav>
+    <div class="content">
+        <main>
+            <h1>About Computer Force</h1>
+            <p>Computer Force is a brand-new start-up company designed to provide first-class service to its customers. Based in Parramatta in Sydney, Computer Force provides top-class computing products at bargain prices, for sale throughout Australia.</p>
+            <h2>Our goals are:</h2>
+            <ul>
+                <li>To become Australia’s most well-known and respected hardware and software provider.</li>
+                <li>To create a service-based organisation whose goal is to exceed customers' expectations.</li>
+                <li>To provide a smooth, efficient, and transparent sales process.</li>
+            </ul>
+            <h2>Contact Us:</h2>
+            <p>Address: 100 Main Road, Parramatta, NSW 20150</p>
+            <p>Email: info@computerforce.com.au</p>
+            <p>Phone: 02 4444 5555</p>
+        </main>
+        <aside>
+            <h2>Purchases</h2>
+            <table class="purchases-table">
+                <tr>
+                    <td>0 items.</td>
+                    <td>Cart sub-total: $0.</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button>Go to Checkout</button></td>
+                </tr>
+            </table>
+        </aside>
+    </div>
+    <footer>
+        <p>&copy; 2024 Computer Force</p>
+    </footer>
+</body>
+</html>

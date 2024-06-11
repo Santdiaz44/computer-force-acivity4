@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Force - Products</title>
+    <style>
+         .logo {
+        width: 80px;
+        height: auto;
+         }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background-color: #fff;
+        }
+        header, footer, nav, aside, main {
+            padding: 20px;
+            border: 1px solid black;
+        }
+        header {
+            text-align: center;
+            background-color: #fff;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            background-color: #000;
+            color: #fff;
+        }
+        nav a {
+            margin-right: 10px;
+            text-decoration: none;
+            color: #fff;
+        }
+        nav .search {
+            display: flex;
+        }
+        nav .search input {
+            margin-right: 10px;
+        }
+        .content {
+            display: flex;
+            flex: 1;
+        }
+        aside {
+            width: 40%;
+            background-color: #A1A1A1;
+        }
+        main {
+            width: 60%;
+            background-color: #f0f0f0;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        footer {
+            background-color: #000;
+            text-align: center;
+            color: #fff;
+        }
+        .purchases-table {
+            width: 100%;
+        }
+        .purchases-table td {
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Computer Force Logo" class="logo">
+    </header>
+    <nav>
+        <div class="menu">
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="register.html">Register</a>
+            <a href="about.html">About</a>
+        </div>
+        <div class="search">
+            <input type="text" placeholder="Search...">
+            <button>Search</button>
+        </div>
+    </nav>
+    <div class="content">
+        <main>
+            <h1>Products we sell</h1>
+            <p>Computer Force sells products in the following categories:</p>
+            <div>
+                <h2>Audio</h2>
+                <img src="images/audio.jpg" alt="Audio">
+            </div>
+            <div>
+                <h2>Computers</h2>
+                <img src="images/computers.jpg" alt="Computers">
+            </div>
+            <div>
+                <h2>Graphics Cards</h2>
+                <img src="images/graphics_cards.jpg" alt="Graphics Cards">
+            </div>
+            <div>
+                <h2>Keyboard & Mice</h2>
+                <img src="images/keyboard_mice.jpg" alt="Keyboard and Mice">
+            </div>
+            <div>
+                <h2>Laptops</h2>
+                <img src="images/laptops.jpg" alt="Laptops">
+            </div>
+            <div>
+                <h2>Monitors</h2>
+                <img src="images/monitors.jpg" alt="Monitors">
+            </div>
+            <div>
+                <h2>Networking</h2>
+                <img src="images/networking.jpg" alt="Networking">
+            </div>
+            <div>
+                <h2>Peripherals</h2>
+                <img src="images/peripherals.jpg" alt="Peripherals">
+            </div>
+            <div>
+                <h2>Printing & Scanning</h2>
+                <img src="images/printing_scanning.jpg" alt="Printing and Scanning">
+            </div>
+            <div>
+                <h2>Software</h2>
+                <img src="images/storage.jpg" alt="Software">
+            </div>
+            <div>
+                <h2>Storage</h2>
+                <img src="images/storage.jpg" alt="Storage">
+            </div>
+            <div>
+                <h2>Tablets</h2>
+                <img src="images/tablets.jpg" alt="Tablets">
+            </div>
+        </main>
+        <aside>
+            <h2>Purchases</h2>
+            <table class="purchases-table">
+                <tr>
+                    <td>0 items.</td>
+                    <td>Cart sub-total: $0.</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button>Go to Checkout</button></td>
+                </tr>
+            </table>
+        </aside>
+    </div>
+    <footer>
+        <p>&copy; 2024 Computer Force</p>
+    </footer>
+</body>
+</html>
